@@ -242,7 +242,7 @@ figcaption {
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  padding: 90px 15px;
+  padding: 0px;
   background-color: #f8fafb;
   font-family: 'Avenirltstd book', sans-serif;
   color: #0f0f0e;
@@ -414,6 +414,7 @@ figcaption {
 }
 
 .container.content-fix {
+  width: auto;
   padding: 43px 120px;
   background-color: #f8fafb;
 }
