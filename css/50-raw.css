@@ -7888,6 +7888,9 @@ figcaption {
 }
 
 .navbar-11 {
+  padding-top: 10px;
+  padding-right: 80px;
+  padding-left: 80px;
   background-color: #f9fafb;
 }
 
@@ -7909,12 +7912,14 @@ figcaption {
   background-color: #f9fafb;
 }
 
-.div-block-18 {
-  min-width: 100%;
-}
-
 .link-10 {
   color: #001e42;
+}
+
+.container-12 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 1920px) {
