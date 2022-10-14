@@ -7443,7 +7443,7 @@ figcaption {
 
 .navbar-4 {
   display: block;
-  background-color: #f9fafb;
+  background-color: transparent;
 }
 
 .image-20 {
@@ -7599,7 +7599,7 @@ figcaption {
 
 .navbar-7 {
   display: none;
-  background-color: #f9fafb;
+  background-color: transparent;
 }
 
 .nav-link-16 {
@@ -7913,7 +7913,7 @@ figcaption {
 }
 
 .navbar-12 {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .navbar-13 {
@@ -8340,7 +8340,7 @@ figcaption {
 
   .navbar-4 {
     display: none;
-    background-color: #f9fafb;
+    background-color: transparent;
   }
 
   .image-20 {
@@ -9699,7 +9699,7 @@ figcaption {
 
   .navbar-4 {
     display: block;
-    background-color: #fff;
+    background-color: transparent;
   }
 
   .nav-link-11 {
@@ -11075,7 +11075,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #f9fafb;
+    background-color: transparent;
   }
 
   .nav-link-11 {
@@ -12018,6 +12018,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    background-color: transparent;
   }
 
   .questions-section.section-small {
@@ -12043,6 +12044,10 @@ figcaption {
   .videos-section.section-small {
     padding-top: 48px;
     padding-bottom: 48px;
+  }
+
+  .videos-section.bottom-space-small {
+    background-color: transparent;
   }
 
   .reviews-section {
@@ -12190,6 +12195,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    background-color: transparent;
   }
 
   .email-section.section-small {
@@ -12228,6 +12234,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    background-color: transparent;
   }
 
   .gamified-section {
@@ -12248,6 +12255,10 @@ figcaption {
   .gamified-section.section-small {
     padding-top: 48px;
     padding-bottom: 48px;
+  }
+
+  .gamified-section.bottom-space-small {
+    background-color: transparent;
   }
 
   .navbar-copy {
@@ -12396,7 +12407,7 @@ figcaption {
   }
 
   .navbar-4 {
-    background-color: #f9fafb;
+    background-color: transparent;
   }
 
   .image-19 {
@@ -12427,7 +12438,7 @@ figcaption {
   }
 
   .navbar-7 {
-    background-color: #fff;
+    background-color: transparent;
   }
 
   .footer-copy {
@@ -12450,6 +12461,10 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .navbar-12 {
+    background-color: transparent;
   }
 
   .section-4 {
