@@ -9699,6 +9699,7 @@ figcaption {
 
   .navbar-4 {
     display: block;
+    background-color: #fff;
   }
 
   .nav-link-11 {
@@ -9830,6 +9831,7 @@ figcaption {
 
   .navbar-7 {
     display: block;
+    background-color: #fff;
   }
 
   .nav-link-16 {
@@ -11110,7 +11112,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #f9fafb;
+    background-color: #fff;
   }
 
   .image-19 {
@@ -11153,6 +11155,10 @@ figcaption {
   .footer-copy.footer-fix {
     position: absolute;
     margin-top: 0px;
+  }
+
+  .navbar-7 {
+    background-color: #fff;
   }
 
   .footer-copy {
@@ -12418,6 +12424,10 @@ figcaption {
     bottom: 0%;
     margin-top: 0px;
     padding-top: 48px;
+  }
+
+  .navbar-7 {
+    background-color: #fff;
   }
 
   .footer-copy {
