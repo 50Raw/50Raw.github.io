@@ -12374,6 +12374,14 @@ figcaption {
     text-align: center;
   }
 
+  .div-block-6.subject-icons {
+    color: #000;
+  }
+
+  .div-block-6-copy.subject-icons.subject-icon-2 {
+    color: #000;
+  }
+
   .stats-item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
