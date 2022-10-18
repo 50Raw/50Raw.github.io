@@ -1616,6 +1616,10 @@ figcaption {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -8063,6 +8067,22 @@ figcaption {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+}
+
+.link-block-2 {
+  color: #000;
+}
+
+.link-block-3 {
+  color: #000;
+}
+
+.link-block-4 {
+  color: #000;
+}
+
+.link-block-5 {
+  color: #000;
 }
 
 @media screen and (min-width: 1920px) {
