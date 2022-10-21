@@ -387,7 +387,6 @@ figcaption {
 .container {
   z-index: 1;
   display: block;
-  width: 90%;
   margin-right: auto;
   margin-left: auto;
   padding: 0px;
@@ -731,26 +730,16 @@ figcaption {
 }
 
 .row.row-split-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
   justify-items: center;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   grid-auto-columns: 1fr;
   -ms-grid-columns: 1fr 0.25fr;
   grid-template-columns: 1fr 0.25fr;
@@ -6572,16 +6561,16 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   margin: 0px auto;
-  padding: 120px 100px 260px;
+  padding: 120px 140px 260px 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -7713,7 +7702,7 @@ figcaption {
 }
 
 .footer-copy {
-  position: static;
+  position: absolute;
   left: 0%;
   top: auto;
   right: 0%;
@@ -8412,6 +8401,14 @@ figcaption {
   align-items: center;
 }
 
+.div-block-21 {
+  min-width: 50%;
+}
+
+.image-34 {
+  min-width: 100%;
+}
+
 @media screen and (min-width: 1920px) {
   img {
     margin-right: 0px;
@@ -8677,7 +8674,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-right: 300px;
+    padding-right: 140px;
     padding-left: 0px;
   }
 
@@ -9323,7 +9320,6 @@ figcaption {
   }
 
   .centered-grid-item {
-    min-width: 0px;
     padding-right: 30px;
     padding-left: 30px;
     -webkit-box-orient: vertical;
@@ -9373,8 +9369,8 @@ figcaption {
   }
 
   .grid-quarters {
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 
   .grid-quarters.cards-grid {
@@ -10040,6 +10036,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-left: 140px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -10608,7 +10605,7 @@ figcaption {
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 24px;
+    padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -11000,8 +10997,9 @@ figcaption {
   }
 
   .large-heading {
-    margin-right: -7px;
+    margin-right: auto;
     margin-bottom: 16px;
+    margin-left: auto;
     padding-left: 0px;
     font-size: 40px;
     line-height: 42px;
@@ -11294,6 +11292,11 @@ figcaption {
     text-align: center;
   }
 
+  .paragraph {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .questions-section {
     margin-top: 0px;
     margin-bottom: -150px;
@@ -11545,6 +11548,8 @@ figcaption {
 
   .videos-content-width-small {
     max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
@@ -11778,6 +11783,11 @@ figcaption {
     align-items: center;
   }
 
+  .div-block-20 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .sub-button.margin-top {
     margin-top: 22px;
     margin-bottom: 22px;
@@ -11812,6 +11822,11 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .image-34 {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -12296,6 +12311,8 @@ figcaption {
   }
 
   .large-heading {
+    margin-right: auto;
+    margin-left: auto;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
@@ -12631,7 +12648,9 @@ figcaption {
   }
 
   .paragraph {
+    margin-right: auto;
     margin-bottom: 0px;
+    margin-left: auto;
     padding-right: 0px;
     text-align: center;
   }
@@ -13156,6 +13175,8 @@ figcaption {
   }
 
   .div-block-20 {
+    margin-right: auto;
+    margin-left: auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
   }
@@ -13205,7 +13226,7 @@ figcaption {
   }
 
   .footer-copy-2 {
-    position: static;
+    position: absolute;
     left: 0%;
     top: auto;
     right: 0%;
@@ -13224,6 +13245,11 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .image-34 {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
