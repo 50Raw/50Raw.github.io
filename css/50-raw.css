@@ -8372,6 +8372,10 @@ figcaption {
   box-shadow: none;
 }
 
+.text-block-26 {
+  color: #000;
+}
+
 @media screen and (min-width: 1920px) {
   .section {
     background-color: #fff;
