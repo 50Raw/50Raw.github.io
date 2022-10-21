@@ -418,8 +418,10 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 0px;
-  padding: 40px 120px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px 120px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -5334,10 +5336,7 @@ figcaption {
 }
 
 .body-3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -7712,7 +7711,10 @@ figcaption {
 
 .footer-copy {
   position: static;
-  margin-bottom: 0px;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -7968,10 +7970,7 @@ figcaption {
 }
 
 .body-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -8374,6 +8373,40 @@ figcaption {
 
 .text-block-26 {
   color: #000;
+}
+
+.footer-copy-2 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #313338;
+}
+
+.footer-copy-2.bg-primary-3 {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 1920px) {
@@ -9036,6 +9069,26 @@ figcaption {
   .sub-button.bg-green {
     font-family: Montserrat, sans-serif;
     font-size: 20px;
+  }
+
+  .footer-copy-2 {
+    position: static;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
@@ -10455,6 +10508,30 @@ figcaption {
     background-color: #c8c8c8;
     color: #000;
   }
+
+  .footer-copy-2 {
+    position: static;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -11683,6 +11760,26 @@ figcaption {
     margin-top: 12px;
     margin-left: 0px;
   }
+
+  .footer-copy-2 {
+    position: static;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+  }
+
+  .footer-copy-2.bg-primary-3 {
+    position: static;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -11839,7 +11936,7 @@ figcaption {
     overflow: hidden;
     width: auto;
     height: 40px;
-    min-width: 100px;
+    min-width: 150px;
     margin-top: 16px;
     margin-right: 0px;
     margin-bottom: 16px;
@@ -13066,6 +13163,32 @@ figcaption {
   .sub-button.button-row-last {
     margin-top: 12px;
     margin-left: 0px;
+  }
+
+  .text-block-26 {
+    min-width: 200px;
+  }
+
+  .footer-copy-2 {
+    position: static;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 0px;
+    padding-top: 40px;
+  }
+
+  .footer-copy-2.bg-primary-3 {
+    position: static;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
